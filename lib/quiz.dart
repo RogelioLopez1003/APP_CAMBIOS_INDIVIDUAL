@@ -65,9 +65,10 @@ class _QuizState extends State<Quiz> {
     }
 
     return MaterialApp(
+      title: 'Flutter Quiz 2025', // Añadir título
       home: Scaffold(
         body: screenWidget,
-        backgroundColor: const Color.fromARGB(255, 93, 4, 134),
+        backgroundColor: Colors.deepPurpleAccent, //Cambio de color de fondo general
       ),
     );
   }
